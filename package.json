@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch ./src/server.ts",
+    "setup": "tsx ./src/setup.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -17,6 +18,7 @@
     "postgres": "^3.4.3",
     "redis": "^4.6.13",
     "tsx": "^4.7.1",
-    "typescript": "^5.4.2"
+    "typescript": "^5.4.2",
+    "zod": "^3.22.4"
   }
 }
