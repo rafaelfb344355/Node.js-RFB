@@ -12,7 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "@types/node": "^20.11.30",
+    "docker-compose": "^0.24.7",
     "fastify": "^4.26.2",
+    "postgres": "^3.4.3",
+    "redis": "^4.6.13",
     "tsx": "^4.7.1",
     "typescript": "^5.4.2"
   }
