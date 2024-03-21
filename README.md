@@ -2,6 +2,7 @@
 ## Emcurtador De Links
 # Depedencias
 * Node.js
+* TypeScript
 * Docker
 * PostgreSQL
 * Redis
