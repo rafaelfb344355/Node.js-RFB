@@ -1,24 +1,24 @@
 {
-  "name": "node.js-rfb",
+  "name": "short-links",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch ./src/server.ts",
-    "setup": "tsx ./src/setup.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "setup": "tsx ./src/setup.ts"
   },
   "keywords": [],
   "author": "RFB",
   "license": "ISC",
+  "devDependencies": {
+    "@types/node": "20.11.29",
+    "tsx": "4.7.1",
+    "typescript": "5.4.2"
+  },
   "dependencies": {
-    "@types/node": "^20.11.30",
-    "docker-compose": "^0.24.7",
-    "fastify": "^4.26.2",
-    "postgres": "^3.4.3",
-    "redis": "^4.6.13",
-    "tsx": "^4.7.1",
-    "typescript": "^5.4.2",
-    "zod": "^3.22.4"
+    "fastify": "4.26.2",
+    "postgres": "3.4.3",
+    "redis": "4.6.13",
+    "zod": "3.22.4"
   }
 }
