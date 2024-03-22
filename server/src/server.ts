@@ -1,10 +1,15 @@
-import fastify from 'fastify'
-import { z } from 'zod'
-import { sql } from './lib/postgres'
-import postgres from 'postgres'
-import { redis } from './lib/redis'
+import fastify from 'fastify';
+import fastifyCors from '@fastify/cors';
+import { z } from 'zod';
+import { sql } from './lib/postgres';
+import postgres from 'postgres';
+import { redis } from './lib/redis';
 
 const app = fastify()
+
+app.register(fastifyCors, {
+  origin: '*',
+});
 
 app.get('/:code', async (request, reply) => {
   const getLinkSchema = z.object({

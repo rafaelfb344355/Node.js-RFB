@@ -2,7 +2,7 @@ POST http://localhost:3333/api/links
 Content-Type: application/json
 
 {
-  "code": "teste5",
+  "code": "teste8",
   "url": "https://google.com"
 }
 
@@ -16,5 +16,5 @@ GET http://localhost:3333/api/metrics
 
 ###
 
-GET http://localhost:3333/teste5
+GET http://localhost:3333/teste8
 
